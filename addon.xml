@@ -1,0 +1,33 @@
+# Author: Meshal (Telegram: @i_Meshal)
+# Screen Rec. Plugin
+# Developed by Meshal © 2025
+# Licensed under MIT
+# https://github.com/i-Meshal/Screen-Rec./
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.screenrec" name="Screen Rec." version="1.0.5" provider-name="i_Meshal">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="tools.ffmpeg-tools"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="resources/main.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Screen Recording Addon</summary>
+    <description>Record screen for CoreELEC. Click to start/stop recording.</description>
+    <assets>
+      <icon>resources/media/icon1.png</icon>
+      <fanart>resources/media/fanart1.png</fanart>
+      <thumb>resources/media/thumbnail1.png</thumb>
+    </assets>
+
+  </extension>
+</addon>
+
+# Author: Meshal (Telegram: @i_Meshal)
+# Screen Rec. Plugin
+# Developed by Meshal © 2025
+# Licensed under MIT
+# https://github.com/i-Meshal/Screen-Rec./
