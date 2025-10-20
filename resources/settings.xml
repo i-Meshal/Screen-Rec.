@@ -1,0 +1,43 @@
+# Author: Meshal (Telegram: @i_Meshal)
+# حفظ الحقوق: @i_Meshal
+# Screen Rec. Plugin
+# Developed by Meshal © 2025
+# Licensed under MIT
+# https://github.com/i-Meshal/Screen-Rec./
+
+<settings>
+  <category label="الإعدادات الأساسية">
+    <setting id="resolution" type="enum" label="الدقة" values="1280x720|1920x1080|3840x2160" default="1" />
+    <setting id="framerate" type="enum" label="معدل الإطارات" values="10|15|20|25|30" default="3" />
+    <setting id="quality" type="enum" label="الجودة (VP9 فقط)" values="منخفض|متوسط|عالي" default="2" />
+    <setting id="save_path" type="folder" label="مجلد الحفظ" default="/storage/videos/" />
+    <setting id="notifications" type="bool" label="إظهار إشعارات" default="true" />
+  </category>
+
+  <category label="أداء وترميز">
+    <setting id="encoder" type="enum" label="المُرمِّز" values="VP9 (webm)|H.264 libx264 (mp4)|H.264 V4L2M2M (mp4)" default="0" />
+  </category>
+
+  <category label="مشاركة">
+    <setting id="enable_share" type="bool" label="تمكين زر المشاركة/QR" default="true" />
+    <setting id="upload_backend" type="enum" label="موقع الرفع" values="Litterbox (72 ساعة)|Catbox" default="0" />
+  </category>
+
+  <category label="السجلات والتشخيص">
+    <setting id="debug_log" type="bool" label="تفعيل سجل تفصيلي (Debug)" default="false" />
+    <setting id="export_logs" type="action" label="تصدير حزمة السجلات" action="RunPlugin(plugin://plugin.video.screenrec/?action=export_logs)" />
+    <setting id="open_logs" type="action" label="فتح مجلد السجلات" action="RunPlugin(plugin://plugin.video.screenrec/?action=open_logs)" />
+  </category>
+
+  <category label="حول الإضافة">
+    <setting type="lsep" label="المطوّر: Meshal " />
+    <setting type="lsep" label="Telegram: @i_Meshal" />
+    <setting id="about" type="action" label="عن هذه الإضافة (حول)" action="RunPlugin(plugin://plugin.video.screenrec/?action=about)" />
+  </category>
+</settings>
+# Author: Meshal (Telegram: @i_Meshal)
+# حفظ الحقوق: @i_Meshal
+# Screen Rec. Plugin
+# Developed by Meshal © 2025
+# Licensed under MIT
+# https://github.com/i-Meshal/Screen-Rec./
