@@ -21,7 +21,7 @@ Screen Rec. is a powerful Kodi plugin designed to record your screen seamlessly.
 4. Enjoy Screen Rec.!
 
 ### © License & Credits
-Developed by **Meshal A. Alsaedi** © 2025  
+Developed by **@i_Meshal ** © 2025  
 Licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
 
 ---
@@ -45,5 +45,5 @@ Licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
 4. استمتع باستخدام Screen Rec.!
 
 ### © حقوق الملكية
-تم التطوير بواسطة **مشعل ع. السعيدي** © 2025  
+تم التطوير بواسطة **@i_Meshal ** © 2025  
 مرخصة تحت رخصة **MIT**. راجع ملف [LICENSE](LICENSE) للمزيد من التفاصيل.
